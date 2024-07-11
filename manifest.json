@@ -5,7 +5,7 @@
     "name": "Коды регионов России",
     "short_name": "Коды регионов России",
     "description": "Коды регионов Российской Федерации",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "categories": [
         "Коды",
         "Россия",
@@ -58,6 +58,6 @@
     "start_url": "https://dagprogs.github.io/codRF/",
     "display": "standalone",
     "orientation": "portrait",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "theme_color": "#f1f1f1",
+    "background_color": "#f1f1f1"
 }
