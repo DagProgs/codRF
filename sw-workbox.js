@@ -22,7 +22,7 @@ workbox.core.clientsClaim();
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "021189ce67834ac15b09a8568c7329f4"
+    "revision": "130464cfb1e47dc1a822195fa0a28568"
   },
   {
     "url": "manifest.json",
@@ -30,7 +30,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "css/style.css",
-    "revision": "15c045908909cc94b0e16e851001a52d"
+    "revision": "2e85fe5935b193bc8b86a156a61223c0"
   },
   {
     "url": "js/scroll-shadow.js",
