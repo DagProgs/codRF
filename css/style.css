@@ -109,7 +109,7 @@ body {
 
 header {
   position: relative;
-  height: 60px;
+  height: 65px;
   z-index: 1;
 }
 
@@ -124,7 +124,6 @@ header {
   min-width: 320px;
   height: 60px;
   background-color: rgba(255, 255, 255, 0.719);
-  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
@@ -158,7 +157,7 @@ table {
 }
 
 #table-data {
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 th,
@@ -181,7 +180,6 @@ td {
   padding: 25px;
   background-color: rgba(255, 255, 255, 0.753);
   border: 1px solid rgb(253, 180, 180);
-  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   box-shadow: 0px 0px 15px #9e9e9e;
 }
