@@ -105,7 +105,6 @@ legend {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
-  height: 100dvh;
 }
 
 header {
@@ -142,7 +141,7 @@ main {
 .main_container {
   position: absolute;
   width: 100vw;
-  height: auto;
+  height: 100dvh;
 }
 
 table {
