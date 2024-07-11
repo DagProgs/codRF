@@ -30,7 +30,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "css/style.css",
-    "revision": "f4b21d56c4f39573d0791e5d189407ac"
+    "revision": "22a940e9256c58f1ec25cce09b6025b6"
   },
   {
     "url": "js/scroll-shadow.js",
