@@ -396,6 +396,18 @@
         </footer>
     </div>
 
+    <script>
+        document.querySelectorAll('input').forEach(input => {
+            input.addEventListener('focus', () => {
+                document.querySelector('.header_container').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+    </script>
+
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
