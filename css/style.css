@@ -125,6 +125,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 60px;
+  top: 0;
   background-color: rgba(255, 255, 255, 0.781);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
@@ -231,10 +232,28 @@ footer {
   height: auto;
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 480px) {
   .header_container {
       position: fixed;
       top: 0;
       width: 100%;
   }
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_container {
+  flex: 0 1 auto; /* Заголовок не сжимается и не растягивается */
+}
+
+.main_container {
+  flex: 1 1 auto; /* Основное содержимое может растягиваться */
+}
+
+.footer_container {
+  flex: 0 1 auto; /* Футер не сжимается и не растягивается */
 }
