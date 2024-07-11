@@ -152,11 +152,9 @@ main {
 table {
   table-layout: fixed;
   width: 100%;
+  height: auto;
   overflow: hidden;
   padding-bottom: 65px;
-}
-
-#table-data {
   padding-top: 10px;
 }
 
