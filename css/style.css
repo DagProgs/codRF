@@ -107,6 +107,12 @@ body {
   font-size: 12px;
 }
 
+
+.app {
+  position: relative;
+  height: 100dvh;
+}
+
 header {
   position: relative;
   z-index: 1;
@@ -122,8 +128,6 @@ header {
   background-color: rgba(255, 255, 255, 0.781);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  top: 0;
-  left: 0;
 }
 .header_container h1 {
   font-size: 1.8em;
@@ -141,7 +145,6 @@ main {
 .main_container {
   position: absolute;
   width: 100vw;
-  height: 100dvh;
 }
 
 table {
