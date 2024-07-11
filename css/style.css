@@ -146,7 +146,7 @@ main {
   position: absolute;
   width: 100vw;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100dvh;
 }
 
 table {
